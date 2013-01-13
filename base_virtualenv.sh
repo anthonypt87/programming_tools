@@ -4,6 +4,8 @@ virtualenv $@
 pushd $1
 source bin/activate
 pip install nose
+pip install rednose
+pip install pyflakes
 pip install spec
 popd
 
